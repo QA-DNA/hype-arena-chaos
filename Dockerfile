@@ -4,4 +4,4 @@ COPY main.py .
 ENV MODE=good
 
 ENTRYPOINT ["python", "main.py"]
-USER 10001
+USER root
